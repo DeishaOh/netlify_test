@@ -1,0 +1,394 @@
+/* section2 - 마이페이지 CSS */
+#section2 .con {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt {
+    margin-left: auto;
+    margin-top: 480px;
+    margin-right: 250px;
+    text-align: right;
+}
+
+.txt1 {
+    font-size: 22px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    color: black;
+    line-height: 52px;
+}
+
+.txt2 {
+    font-size: 52px;
+    font-family: 'Jalnan';
+    font-weight: 300;
+    color: black;
+    letter-spacing: -2px;
+}
+
+.txt3 {
+    font-size: 22px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    color: #7d7d7d;
+    margin-top: 90px;
+}
+
+.txt_my {
+    margin-left: auto;
+    margin-top: 520px;
+    margin-right: 180px;
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.txt1_1 {
+    font-size: 26px;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    color: black;
+}
+
+.txt3_3 {
+    font-size: 26px;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    color: #7d7d7d;
+    margin-top: 90px;
+}
+
+#all_menu .menu ul li a div {
+    position: relative;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+
+/* CONTACT US 슬라이드 CSS */
+.contact_items1 {
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    border-radius: 68px;
+    margin: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact_map {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.contact_title {
+    margin-bottom: 30px;
+    font-family: 'Noto Sans KR';
+    font-size: 28px;
+    color: #fc8049;
+    font-weight: 600;
+}
+
+.contact_txt {
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
+    color: #484848;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.contact_items2 {
+    background-color: white;
+    width: 60%;
+    height: 70%;
+    border-radius: 68px;
+    margin: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.contact100-form-title {
+    margin-bottom: 30px;
+    font-family: 'Noto Sans KR';
+    font-size: 28px;
+    color: #fc8049;
+    font-weight: 600;
+}
+
+#contact_form {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.modal_content {
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 74px 0;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+/* 각 섹션 페이지 연결 버튼 */
+.section3_button {
+    width: 160px;
+    height: 23px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 18px;
+    color: white;
+    background-color: #fc8049;
+    border-radius: 25px 25px 25px 25px;
+    padding: 15px 25px 15px 25px;
+    margin: 80px 0px 125px 235px;
+}
+
+.section3_button:hover {
+    color: #fc8049;
+    background-color: #FFFFFF;
+    animation-name: elementor-animation-pulse-grow;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.section4_button {
+    width: 160px;
+    height: 23px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 18px;
+    color: white;
+    background-color: #fc8049;
+    border-radius: 25px 25px 25px 25px;
+    padding: 15px 25px 15px 25px;
+    margin: 0px 0px 140px 180px;
+}
+
+.section4_button:hover {
+    color: #fc8049;
+    background-color: #FFFFFF;
+    animation-name: elementor-animation-pulse-grow;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.section5_button {
+    width: 160px;
+    height: 23px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 18px;
+    color: white;
+    background-color: #fc8049;
+    border-radius: 25px 25px 25px 25px;
+    padding: 15px 25px 15px 25px;
+    margin: 80px 0px 108px 295px;
+}
+
+.section5_button:hover {
+    color: #fc8049;
+    background-color: #FFFFFF;
+    animation-name: elementor-animation-pulse-grow;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* 반응형 웹 CSS */
+@media (max-width: 1400px) {
+
+    /* section1 */
+    .txt {
+        margin-top: 280px;
+    }
+
+    .txt1 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .txt3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    /* section2 */
+    .txt_my {
+        margin-top: 280px;
+        margin-right: 230px;
+    }
+
+    .txt1_1 {
+        font-size: 22px;
+    }
+
+    .txt3_3 {
+        font-size: 22px;
+    }
+
+    /* section3 */
+    .section3_button {
+        width: 100px;
+        height: 16px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 18px;
+        color: white;
+        background-color: #fc8049;
+        border-radius: 25px 25px 25px 25px;
+        padding: 15px 25px 15px 25px;
+        margin: 0px 0px 90px 180px;
+    }
+
+    /* section4 */
+    .section4_button {
+        width: 100px;
+        height: 16px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 18px;
+        color: white;
+        background-color: #fc8049;
+        border-radius: 25px 25px 25px 25px;
+        padding: 15px 25px 15px 25px;
+        margin: 0px 0px 140px 140px;
+    }
+
+    /* section5 */
+    .section5_button {
+        width: 100px;
+        height: 16px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 18px;
+        color: white;
+        background-color: #fc8049;
+        border-radius: 25px 25px 25px 25px;
+        padding: 15px 25px 15px 25px;
+        margin: 0px 0px 98px 230px;
+    }
+
+    /* section6 */
+    .contact_items1 {
+        background-color: white;
+        width: 40%;
+        height: 70%;
+        border-radius: 68px;
+        margin: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact_items2 {
+        background-color: white;
+        width: 60%;
+        height: 70%;
+        border-radius: 68px;
+        margin: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact_form {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact_title {
+        margin-bottom: 21px;
+        font-family: 'Noto Sans KR';
+        font-size: 24px;
+        color: #fc8049;
+        font-weight: 600;
+    }
+    .contact_txt {
+        width: 80%;
+        font-family: 'Noto Sans KR';
+        font-size: 14px;
+        color: #484848;
+        font-weight: 500;
+        margin-top: 21px;
+    }
+
+    .contact100-form-title {
+        margin-bottom: 21px;
+        font-family: 'Noto Sans KR';
+        font-size: 24px;
+        color: #fc8049;
+        font-weight: 600;
+    }
+    
+    .contact100-form {
+        width: 85%;
+    }
+    
+    input.input100 {
+        height: 45px;
+        border-radius: 25px;
+        padding: 0px 30px 0px 50px;
+        box-sizing: border-box;
+    }
+
+    textarea.input100 {
+        min-height: 120px;
+        border-radius: 25px;
+        padding: 14px 30px;
+        box-sizing: border-box;
+    }
+}
